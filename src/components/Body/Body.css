@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family:'karla',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header {
+    text-align: left;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 110px;
+    background-color: white;
+    margin-top: 70px;
+    margin-right: 280px;
+    margin-left: 280px;
+    color: hsl(179, 62%, 43%);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    display: flex;
+    text-align: left;
+    color: white;
+}
+
+.foot1 {
+    flex: 50%;
+    background-color:hsl(179, 62%, 43%);
+    padding: 30px;
+    padding-right: 50px;
+    margin-left: 280px;
+    border-radius: 0px 0px 0px 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foot2 {
+    flex: 50%;
+    background-color: hsl(218, 22%, 67%);
+    padding: 30px;
+    padding-right: 50px;
+    margin-right: 280px;
+    border-radius: 0px 0px 10px 0px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+    font-size: 16px;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 100%;
+    padding: 6px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+span {
+    color: hsl(71, 73%, 54%);
+}
+h1 {
+    display: inline;
+}
